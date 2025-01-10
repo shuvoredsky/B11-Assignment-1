@@ -5,6 +5,7 @@
 }
 body{
     background-color: #F5F5F5;
+    font-family: "Fira Sans", serif;
 }
 /* shared style */
 .section-title{
@@ -115,6 +116,7 @@ body{
     font-size: 18px;
     font-weight: bold;
     border-radius: 17px;
+    padding: 17px 27px;
 }
 .btn:hover{
     background-color: white;
@@ -275,7 +277,7 @@ body{
 .amount-part-two h1{
     font-size: 40PX;
     font-weight: bold;
-    padding: 40px;
+    padding: 38px;
 }
 .amount-part-three{
     height: 128px;
@@ -286,7 +288,7 @@ body{
 .amount-part-three h1{
     font-size: 40PX;
     font-weight: bold;
-    padding: 40px;
+    padding: 38px;
 }
 .amount-part-three:hover{
     background-color:#C6E4D6 ;
@@ -314,7 +316,7 @@ body{
     padding: 40px;
 }
 .big-amount h1{
-    padding: 40px 29px;
+    padding: 40px 26px;
 }
 .input-taka{
     margin: 0px 124px;
