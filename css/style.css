@@ -189,3 +189,32 @@ body{
     margin: 10px 0px 0px 0px ;
     font-size: 16px;
 }
+
+/* recent news style */
+.recent-news{
+    margin: 0 auto;
+    width: 1280px;
+}
+.news-description{
+    font-size: 16px;
+    color: #0e0e0ea2;
+    font-weight: 500;
+    margin: 0 auto 20px; 
+}
+.recent-news-one{
+    display: flex;
+    height: 300px;
+    width: 1280px;
+    background-color: white;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 48px;
+}
+.news-images{
+    border-radius: 24px;
+}
+.news-block{
+    margin-top: 24px;
+}
