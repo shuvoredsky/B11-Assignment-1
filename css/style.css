@@ -41,6 +41,9 @@ body{
     background-color: white;
     color: #006A50;
 }
+.text-align{
+    text-align: center;
+}
 /* nav style */
 
 .nav{
@@ -217,4 +220,104 @@ body{
 }
 .news-block{
     margin-top: 24px;
+}
+
+/* donate part style */
+.donate-part{
+   width: 1280px;
+   margin: 0 auto;
+   
+}
+.donate-title h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.donate-title p{
+    padding: 0 100px;
+}
+.donate-title {
+    text-align: center;
+}
+.amount-part{
+    width: 1280px;
+    margin: 32px auto;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.amount-part-one{
+    height: 128px;
+    width: 240px;
+    background-color: white;
+    border-radius: 16px;
+}
+.amount-part-one:hover{
+    background-color:#C6E4D6 ;
+}
+.amount-part-one h1{
+    font-size: 40PX;
+    font-weight: bold;
+    padding: 40px;
+}
+.big-amount h1{
+    padding: 40px 29px;
+}
+.input-taka{
+    margin: 0px 124px;
+    width: 1032px;
+    height: 64px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.361);
+    text-align: center;
+    
+}
+.donate-btn{
+    margin: 32px 510px 0 510px;
+}
+
+/* subscribe part style */
+
+.subscribe-area{
+    width: 750px;
+    height: 235px;
+}
+.subscribe-part{
+    width: 1280px;
+    height: 395px;
+    margin: 80px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.subscribe-part h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.subscribe-part p{
+    padding-top: 16px;
+    color: #0e0e0ec5;
+}
+.input-mail{
+    display: flex;
+    margin: 24px 0px;
+}
+.put-mail input{
+    height: 56px;
+    width: 560px;
+    padding: 0px 0 0px 40px;
+    border: none;
+    
+}
+.subscribe-btn{
+    height: 58px;
+    width: 150px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
 }
