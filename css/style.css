@@ -54,6 +54,7 @@ body{
     justify-content: space-between;
     background-color: #F5F5F5;
     align-items: center;
+    margin: 0 auto;
 }
 .nav .home a{
     font-size: 32px;
@@ -291,6 +292,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
+    margin: 0 auto;
 }
 .subscribe-part h1{
     font-size: 40px;
@@ -320,4 +322,28 @@ body{
     font-size: 18px;
     font-weight: 600;
     padding: 17px 34px;
+}
+/* main footter part style */
+
+.main-footer{
+    height: 226px;
+    width: 1600px;
+    background-color: white;
+    margin: 80px auto 0px auto;
+    padding-top: 50px;
+
+}
+
+.footer-title h1{
+    margin: 0px auto 32px auto;
+}
+.footer-icon{
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.footer-line{
+    margin: 0px 238px;
 }
