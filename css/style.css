@@ -232,6 +232,9 @@ body{
 .news-images{
     border-radius: 24px;
 }
+.img-size img{
+    width: 250px;
+}
 .news-block{
     margin-top: 24px;
 }
@@ -375,6 +378,11 @@ body{
     font-size: 18px;
     font-weight: 600;
     padding: 17px 34px;
+}
+.subscribe-btn:hover{
+    background-color: #146d5771;
+    color: #ffffff;
+    cursor: pointer;
 }
 /* main footter part style */
 
